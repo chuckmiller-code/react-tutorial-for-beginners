@@ -1,14 +1,21 @@
 // import ListGroup from "./components/ListGroup";
 import Alert from "./components/Alert";
 import Button from "./components/Button";
+import ButtonTwo from "./components/ButtonTwo";
 
 function App() {
 
-  return (
-    <>
-      <Button onClick={() => console.log('Clicked')} color='danger'>Test</Button>
-    </>
-  )
+    return (
+      <>
+        <ButtonTwo>Test</ButtonTwo>
+      </>
+    )
+
+  // return (
+  //   <>
+  //     <Button onClick={() => console.log('Clicked')} color='danger'>Test</Button>
+  //   </>
+  // )
 
   // return (
   //   <>
