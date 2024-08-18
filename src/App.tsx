@@ -1,14 +1,21 @@
 // import ListGroup from "./components/ListGroup";
 import Alert from "./components/Alert";
+import Button from "./components/Button";
 
-function App () {
+function App() {
 
   return (
     <>
-      <Alert />
+      <Button onClick={() => console.log('Clicked')} color='danger'>Test</Button>
     </>
-  );
-  
+  )
+
+  // return (
+  //   <>
+  //     <Alert>Hello World</Alert>
+  //   </>
+  // );
+
   // let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
 
   // const handleSelectItem = (item: String) => {
